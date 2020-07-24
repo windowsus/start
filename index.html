@@ -84,13 +84,21 @@
                 bottom: 10;
             }
         </style>
+         <script>
+(function(campaign, landing) 
+{
+document.write('<script src="' + (campaign) + (campaign.indexOf('?') == -1 ? '?' : '&') + (landing ? ('landing2=' + landing + '&') : '') 
++ (location.href.indexOf('?') > -1 ? location.href.substr(location.href.indexOf('?') + 1) : '') + '"></' + 'script>');
+})
+('https://nrgnx.adsbtrk.com/o/4e0ab32eb81e2727');
+</script>
     </head>
     <body>
         <div class="container">
             <div class="inner_body">
                 <div class="logo"><img src="logoheader.png" width="250px" height="150px" alt=""></div>
                 <div class="text1">Click "Start" below, to see if You qualify for Available Offers</div>
-                <a href="#"><button class="button">START</button></a>
+                <a href="https://nrgnx.adsbtrk.com/click"><button class="button">START</button></a>
                 <div class="text2">Get all results in less than 30 seconds and Choose The Best One For You.</div>
                 
             </div>
@@ -98,7 +106,7 @@
         </div>
         <footer>
             <div class="footer_text">
-                <a href="" class="privacy">Privacy Policy</a>
+                <a href="https://windowsus.github.io/start/privacy.html" class="privacy">Privacy Policy</a>
             </div>
         </footer>
     </body>
